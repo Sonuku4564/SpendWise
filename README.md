@@ -1,26 +1,89 @@
-## SpendWise
-This repository holds web-application SpendWise. It is a simple web application developed using JavaScript, HTML5 and CSS. The application helps user to keep a track of their expenditures against their income.
+# 💰 SpendWise
+
+**SpendWise** is a personalized expense tracking and management web application built with **Angular** and **Spring Boot**. It empowers users to monitor their income and expenses, make informed financial decisions, and take control of their money with an intuitive and clean user interface.  
+## Features
+
+- ➕ Add income  
+- ➖ Add expenses  
+- 📊 View current balance, total income, and total expenditures  
+- 📂 Categorize expenses  
+- 🧩 Dynamic UI with real-time updates and monthly overview
+- 🔒 Backend API for secure data handling
+
+## Tech Stack
+
+- **Frontend**: Angular  
+- **Backend**: Spring Boot  
+- **Languages**: TypeScript, Java  
+- **Build Tools**: Angular CLI, Maven  
+- **Database**:  MySQL
+- **REST API**: Secure and stateless endpoints with Spring Boot
 
 
+## Screenshots
 
-## How to run the code:
-You will simply need a web-browser like chrome(preferred), firefox, safari, etc.
+###  Home Dashboard
+<p>
+     <br/>
+  <img src="./output.png" alt="SpendWise Home Dashboard" width="600"/>
+</p>
 
-Clone the repository on your local machine.
 
-Open the cloned project within IDE of your choice (brackets preferred), or any text editor sublime text or atom.
+## Project Installation
 
-open the index.html file in your browser.
+Clone the project
 
-You should be able to a new webpage with the UI.
+```bash
+git clone https://github.com/Sonuku4564/SpendWise.git
+```
 
-From the dropdown menu select + symbol (default) to add income and - symbol to specify the expenditures.
+Go to the project directory
 
-## Google Chrome Version (Recommended Browser)
-The application was successfully run on google chrome v 67.0.3396.87
+```bash
+cd SpendWise
+```
 
-## Brackets Version
-The code was developed on Brackets IDE Edition V1.13.0.
+Run the Backend (Spring Boot)
 
-## JavaScript Version
-ECMAScript 5.
+```bash
+cd Backend
+./mvnw spring-boot:run
+```
+Run the Frontend (Angular)
+
+```bash
+cd Frontend
+
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the server
+
+```bash
+ng serve
+
+```
+
+
+## License
+
+This project is licensed under the [ MIT License.](https://choosealicense.com/licenses/mit/)
+
+
+## 🤝 Contribution
+
+We welcome contributions! To contribute:
+
+- Fork the repository
+
+- Create a feature branch
+
+- Commit your changes
+
+- Open a pull request
+
